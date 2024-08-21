@@ -1,5 +1,5 @@
-# lab5
-Lab 5
+# Autores:
+Pablo Méndez - Universidad del Valle de Guatemala
 
 # Repositorio de Ejercicios en C
 
@@ -11,9 +11,9 @@ Este programa calcula la suma de los primeros N números naturales utilizando un
 
 ### Compilación
 Para compilar el programa, asegúrate de tener instalado el compilador de C (por ejemplo, GCC). Luego, ejecuta:
-gcc -fopenmp -o Suma Suma.c
+`gcc -fopenmp -o Suma Suma.c`
 ### Ejecución
-./Suma
+`./Suma`
 
 
 
@@ -23,9 +23,9 @@ Este programa ejecuta tres funciones diferentes en paralelo utilizando la direct
 
 ### Compilación
 Compila el programa con:
-gcc -fopenmp -o Funciones Funciones.c
+`gcc -fopenmp -o Funciones Funciones.c`
 ### Ejecución
-./Funciones
+`./Funciones`
 
 
 
@@ -35,7 +35,20 @@ Este programa modifica dos variables de manera paralela utilizando las cláusula
 
 ### Compilación
 Compila el programa con:
-gcc -fopenmp -o Ciclos Ciclos.c
+`gcc -fopenmp -o Ciclos Ciclos.c`
 ### Ejecución
 Ejecuta el programa con:
-./Ciclos
+`./Ciclos`
+
+
+
+## Ejercicio_5A (Ejercicio_A.c)
+
+Este programa cuenta cuántas veces aparece un valor específico `('key')` en un arreglo de números aleatorios. La versión paralela utiliza OpenMP y la función `count_key_parallel()`.
+
+### Compilación
+Compila el programa con:
+`gcc -fopenmp -o Ejercicio_5A Ejercicio_5A.c`
+### Ejecución:
+Ejecuta el programa con:
+`./Ejercicio_5A`
